@@ -1,0 +1,30 @@
+现在分为5个样子：
+
+1.Jieba+HanLP同时将整句中的人名全部提取出来；
+
+2.Jieba将整句中的人名全部提取出来，HanLP或多或少都有问题；
+
+3.HanLP将整句中的人名全部提取出来，Jieba或多或少都有问题；
+
+4.两者都有问题；
+
+5.两者的提取出现非人名字段(分Jieba中出现、HanLP中出现)。
+
+
+5个不同的问题，分别用一个txt文件摘取出来：
+
+	
+1.HanLP错误提取.txt(特指人名出错)	
+2.Jieba错误提取.txt	(特指人名出错)
+
+	
+3.both提取错误.txt	(特指人名出错)
+4.both提取错误.txt	(非人名字段)
+
+
+5.非人名字段(Jieba中出现).txt	
+6.非人名字段(HanLP中出现).txt	
+
+
+
+我的腾讯云接口：cred = credential.Credential("AKIDhDTTCepjMipfFXZLq41h6E5fy0lFSP5V", "B5qPhiSv72g3A0Zrte8KFuIODl22lDOH") 
